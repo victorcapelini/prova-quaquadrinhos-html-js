@@ -1,6 +1,6 @@
 # Prova EcommIt + Html + Javascript (Junior e Pleno)
 
-# Versão
+## Versão
 * 1.0
 
 Este é um projeto de exemplo para candidatos da prova da vaga de desenvolvedor de Html + Javascript puros
@@ -11,25 +11,45 @@ Esta prova tem como objetivo atestar os conhecimentos do candidato em Javascript
 
 * O tempo da prova é de 3 a 5 dias para analista junior.
 * O tempo da prova é de 6 a 8 dias para analista pleno.
+* É permitido utilizar outras frameworks e libraries (desde que se mantenha em Javscript e Html).
+* Realize um fork do projeto e ao completar mande uma pull request e nos mande um e-mail contato@ecommit.com.br
+
+### O que ganha pontos 
+* Organização do código.
+* Clareza no código.
+* Resolver o que foi proposto.
+* Testes unitários (se julgar necessário).
+
+### O que perde pontos
+* Copiar inteiro do amigo.
+* Pedir para outra pessoa fazer por você.
+* Códigos lentos.
+* Não ser mobile-friendly.
+* Descaracterizar o layout.
+
+### Dúvidas
+* Abra uma issue ou entre em contato conosco contato@ecommit.com.br
 
 ### A prova possui duas etapas.
 
 #### Para analistas Junior, as tarefas são as seguintes:
 * Na pagina Principal
-    - [ ] Carregar dinamicamente as imagens de acordo com o arquivo ./public/api.json (um aleatório) com a imagem e a quantidade de visualizações.
+    - [ ] Carregar dinamicamente as imagens de acordo com o arquivo ./public/api.json (exatamente igual da tela) com a imagem e a quantidade de visualizações.
     - [ ] Ajustar o contador de visualizações para quantas visualizações foram feitas por quadrinho (localstorage). Exemplo.: Se eu abrir 10 vezes o site na pagina principal e em todas for no quadrinho Xkcd, o contador deverá ser 10 visualizações.
-* Na página de detalhe
     - [ ] Colocar uma modal para ampliar o quadrinho em cada quadrinho.
-    - [ ] Modificar a página detalhe.html para permitir que seja carregado um quadrinho diferente dependendo de um parametro enviado na url. Exemplo: detalhe.html?id=1
-    - [ ] Carregar dinamicamente as imagens de acordo com o arquivo ./public/api.json de acordo com o quadrinho
+* Na página de detalhe
+
+    - [ ] Modificar a página detalhe.html para permitir que seja carregado um quadrinho diferente dependendo de um parametro enviado. Exemplo: enviando na url detalhe.html?id=1 ou detalhe/1 ou detalhe/xkcd.
+    - [ ] Carregar dinamicamente as imagens de acordo com o arquivo ./public/api.json de acordo com o quadrinho.
+* Nova página chamada random.html
+    - [ ] Criar uma nova página que seja randomica, ao entrar nela irá buscar um quadrinho aleatório do arquivo ./public/api.json e exibir como resultado. A cada vez que entrar na tela carregar um diferente. A tela deve seguir o mesmo padrão de layout da detalhe.html porem desta vez só com um quadrinho aleatório.
 * Em todas
+    - [ ] Ao clicar em Me inscrever no menu (no topo da página), mover a tela direto para a seção de Me Inscrever (no final da página).
     - [ ] Ajustar todos os menus, para ao clicar no link QuaQuadrinhos -> (Nome do quadrinho) redirecionar para a telha de detalhe do quadrinho respectivo.
     - [ ] Ao clicar em me inscrever, armazenar o email no browser (localstorage)
 
 #### Para analistas Plenos, as tarefas são as seguintes:
 - [ ] Todas as tarefas do analista Junior acima e também:
-* Na página Home
-    - [ ] Crie um sistema de paginação para exibir 3 quadrinhos de cada vez.
 * Na página de detalhe
     - [ ] Crie um sistema de paginação para exibir 3 quadrinhos de cada vez.
     - [ ] Integre os quadrinhos do Xkcd com a api deles: https://xkcd.com/json.html
@@ -68,7 +88,7 @@ Ele deverá retornar as linhas da seguinte forma
 
 Cole a url no browser e boa sorte ! 
 
-## Authors
+## Autores
 
 * **Carlos Augusto** - *Dev* - [engaugusto](https://github.com/engaugusto)
 
