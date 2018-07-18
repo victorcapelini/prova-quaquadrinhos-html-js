@@ -10,7 +10,7 @@ Este é um projeto para candidatos da prova da vaga de desenvolvedor de Html + J
 Esta prova tem como objetivo atestar os conhecimentos do candidato em Javascript e Html.
 
 * O tempo da prova é de 3 a 5 dias para analista junior.
-* O tempo da prova é de 6 a 8 dias para analista pleno.
+* O tempo da prova é de 5 a 7 dias para analista pleno.
 * É permitido utilizar outras frameworks e libraries (desde que se mantenha em Javscript e Html).
 * Realize um fork do projeto e ao completar mande uma pull request e nos mande um e-mail contato@ecommit.com.br (Tutorial de como fazer isso : http://pythonclub.com.br/como-fazer-fork-clone-push-pull-request-no-github.html)
 
@@ -46,14 +46,14 @@ Esta prova tem como objetivo atestar os conhecimentos do candidato em Javascript
 * Em todas
     - [ ] Ao clicar em Me inscrever no menu (no topo da página), mover a tela direto para a seção de Me Inscrever (no final da página).
     - [ ] Ajustar todos os menus, para ao clicar no link QuaQuadrinhos -> (Nome do quadrinho) redirecionar para a telha de detalhe do quadrinho respectivo.
-    - [ ] Ao clicar em me inscrever, armazenar o email no browser (localstorage)
+    - [ ] Ao clicar em me inscrever, armazenar o email no browser (localstorage) e enviar uma modal com a mensagem "E-mail cadastrado, bem vindo !".
 
 #### Para analistas Plenos, as tarefas são as seguintes:
-- [ ] Todas as tarefas do analista Junior acima e também:
+    - [ ] Todas as tarefas do analista Junior acima e também:
 * Na página de detalhe
     - [ ] Crie um sistema de paginação para exibir 3 quadrinhos de cada vez *Aqui não vale utilizar um pronto.
     - [ ] Integre os quadrinhos do Xkcd com a api deles: https://xkcd.com/json.html
-* Nova página de pesquisa
+* Nova página de pesquisa.
     - [ ] Adicione uma nova página de pesquisa no menu ao lado do menu dos QuaQuadrinhos pela key "tags" do Json.
     - [ ] Permita que seja possivel exibir os quadrinhos procurados em uma nova tela de resultado.
 * Em todas
@@ -94,4 +94,4 @@ Cole a url no browser e boa sorte !
 
 ## Licença
 
-A licença do projeto escolhida foi a GNU GPLv3 [LICENSE.md](LICENSE.md) para mais detalhes.
+A licença do projeto escolhida foi a GNU GPLv3 [LICENSE](LICENSE) para mais detalhes.
