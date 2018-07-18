@@ -5,13 +5,13 @@
             {
                 "id": 1,
                 "tags": "xkcd centrifuga",
-                "views": 0,
+                "views": 1,
                 "img": "https://imgs.xkcd.com/comics/centrifugal_force.png"
             },
             {
                 "id": 2,
                 "tags": "xkcd resultados negativos result negative",
-                "views": 0,
+                "views": 5,
                 "img": "https://imgs.xkcd.com/comics/negative_results.png",
                 "capa": 1
             },
@@ -26,25 +26,25 @@
             {
                 "id": 4,
                 "tags": "umsabadoqualquer mundo avesso",
-                "views": 0,
+                "views": 3,
                 "img": "https://www.umsabadoqualquer.com/wp-content/uploads/2018/06/171.jpg"
             },
 			{
                 "id": 5,
                 "tags": "umsabadoqualquer neymar",
-                "views": 0,
+                "views": 10,
                 "img": "https://www.umsabadoqualquer.com/wp-content/uploads/2018/06/170.jpg"
             },
             {
                 "id": 6,
                 "tags": "umsabadoqualquer mãe praga mundo avesso",
-                "views": 0,
+                "views": 10,
                 "img": "https://www.umsabadoqualquer.com/wp-content/uploads/2018/06/169.jpg"
             },
             {
                 "id": 20,
                 "tags": "umsabadoqualquer gato cachorro",
-                "views": 0,
+                "views": 7,
                 "img": "https://www.umsabadoqualquer.com/wp-content/uploads/2018/06/224.jpg",
                 "capa": 1
             }
@@ -53,20 +53,20 @@
             {
                 "id": 7,
                 "tags": "vidaprogramador gerente ftp",
-                "views": 0,
+                "views": 50,
                 "img": "https://vidadeprogramador.com.br/uploads/2018/06/tirinha1865.png",
                 "capa": 1
             },
 			{
                 "id": 8,
                 "tags": "vidaprogramador zoando termina tudo",
-                "views": 0,
+                "views": 3,
                 "img": "https://vidadeprogramador.com.br/uploads/2018/06/tirinha1427.png"
             },
             {
                 "id": 9,
                 "tags": "vidaprogramador 300 loop",
-                "views": 0,
+                "views": 9,
                 "img": "https://vidadeprogramador.com.br/uploads/2018/06/tirinha1863.png"
             }
 		],
@@ -74,20 +74,20 @@
             {
                 "id": 10,
                 "tags": "vidadesuporte 300 loop",
-                "views": 0,
+                "views": 22,
                 "img": "https://vidadesuporte.com.br/wp-content/uploads/2018/07/Suporte_2053.jpg",
                 "capa": 1
             },
             {
                 "id": 11,
                 "tags": "vidadesuporte taxidriver",
-                "views": 0,
+                "views": 3,
                 "img": "https://vidadesuporte.com.br/wp-content/uploads/2018/07/Suporte_2052.jpg"
             },
             {
                 "id": 12,
                 "tags": "vidadesuporte arqueólogo",
-                "views": 0,
+                "views": 2,
                 "img": "https://vidadesuporte.com.br/wp-content/uploads/2018/07/Suporte_2051.jpg"
             }
         ],
@@ -95,25 +95,25 @@
             {
                 "id": 13,
                 "tags": "armandinho patrimônio público detonar",
-                "views": 0,
+                "views": 1,
                 "img": "https://78.media.tumblr.com/16e62f8e68f580308a1b1068cb36bdb7/tumblr_otltd59mnf1u1iysqo1_1280.png"
             },
             {
                 "id": 14,
                 "tags": "armandinho mandioca macaxeira",
-                "views": 0,
+                "views": 17,
                 "img": "https://78.media.tumblr.com/1e57bb2e5981422bb3c207a1abdc1b62/tumblr_otgu09zPaC1u1iysqo1_1280.png"
             },
             {
                 "id": 15,
                 "tags": "armandinho sinto eu",
-                "views": 0,
+                "views": 18,
                 "img": "https://78.media.tumblr.com/3c6c8dc1dce42e20f36aa1039b046d22/tumblr_ot8wmhw4j21u1iysqo1_1280.png"
             },
             {
                 "id": 21,
                 "tags": "armandinho sinto eu",
-                "views": 0,
+                "views": 22,
                 "img": "https://78.media.tumblr.com/313dd09abdae2797c01a899f1ac4b68e/tumblr_osjgarQf8g1u1iysqo1_1280.png",
                 "capa": 1
             }

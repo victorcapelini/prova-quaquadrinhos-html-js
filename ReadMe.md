@@ -1,9 +1,9 @@
 # Prova EcommIt + Html + Javascript (Junior e Pleno)
 
+Este é um projeto para candidatos da prova da vaga de desenvolvedor de Html + Javascript
+
 ## Versão
 * 1.0
-
-Este é um projeto para candidatos da prova da vaga de desenvolvedor de Html + Javascript
 
 ## Prova
 
@@ -40,9 +40,9 @@ Esta prova tem como objetivo atestar os conhecimentos do candidato em Javascript
     - [ ] Colocar uma modal para ampliar o quadrinho em cada quadrinho.
 * Na página de detalhe
     - [ ] Modificar a página detalhe.html para permitir que seja carregado um quadrinho diferente dependendo de um parametro enviado. Exemplo: enviando na url detalhe.html?id=1 ou detalhe/1 ou detalhe/xkcd.
-    - [ ] Carregar dinamicamente as imagens de acordo com o arquivo ./public/api.json de acordo com o quadrinho.
+    - [ ] Carregar dinamicamente as imagens de acordo com o arquivo [public/api.json](public/api.json) de acordo com o quadrinho.
 * Nova página chamada random.html
-    - [ ] Criar uma nova página que seja randomica, ao entrar nela irá buscar um quadrinho aleatório do arquivo ./public/api.json e exibir como resultado. A cada vez que entrar na tela carregar um diferente. A tela deve seguir o mesmo padrão de layout da detalhe.html porem desta vez só com um quadrinho aleatório.
+    - [ ] Criar uma nova página que seja randomica, ao entrar nela irá buscar um quadrinho aleatório do arquivo [public/api.json](public/api.json) e exibir como resultado. A cada vez que entrar na tela carregar um diferente. A tela deve seguir o mesmo padrão de layout da detalhe.html porem desta vez só com um quadrinho aleatório.
 * Em todas
     - [ ] Ao clicar em Me inscrever no menu (no topo da página), mover a tela direto para a seção de Me Inscrever (no final da página).
     - [ ] Ajustar todos os menus, para ao clicar no link QuaQuadrinhos -> (Nome do quadrinho) redirecionar para a telha de detalhe do quadrinho respectivo.
