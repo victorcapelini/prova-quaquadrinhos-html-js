@@ -35,7 +35,7 @@ Esta prova tem como objetivo atestar os conhecimentos do candidato em Javascript
 
 #### Para analistas Junior, as tarefas são as seguintes:
 * Na pagina Principal
-    - [ ] Carregar dinamicamente as imagens de acordo com o arquivo ./public/api.json (exatamente igual da tela) com a imagem e a quantidade de visualizações.
+    - [ ] Carregar dinamicamente as imagens de acordo com o arquivo [public/api.json](public/api.json)  (exatamente igual da tela) com a imagem e a quantidade de visualizações.
     - [ ] Ajustar o contador de visualizações para quantas visualizações foram feitas por quadrinho (localstorage). Exemplo.: Se eu abrir 10 vezes o site na pagina principal e em todas for no quadrinho Xkcd, o contador deverá ser 10 visualizações.
     - [ ] Colocar uma modal para ampliar o quadrinho em cada quadrinho.
 * Na página de detalhe
@@ -94,4 +94,4 @@ Cole a url no browser e boa sorte !
 
 ## Licença
 
-A licença do projeto escolhida foi a GNU GPLv3 [LICENSE](LICENSE) para mais detalhes.
+A licença do projeto escolhida foi a GNU GPLv2 [LICENSE](LICENSE) para mais detalhes.
