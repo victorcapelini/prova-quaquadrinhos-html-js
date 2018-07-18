@@ -1,0 +1,90 @@
+{
+	"data": 20180701,
+	"tirinhas": {
+		"xkcd": [
+            {
+                "tags": "xkcd centrifuga",
+                "views": 0,
+                "img": "https://imgs.xkcd.com/comics/centrifugal_force.png"
+            },
+            {
+                "tags": "xkcd resultados negativos result negative",
+                "views": 0,
+                "img": "https://imgs.xkcd.com/comics/negative_results.png"
+            },
+			{
+                "tags": "xkcd two mirrors dois espelhos",
+                "views": 0,
+                "img": "https://imgs.xkcd.com/comics/two_mirrors.png"
+            }
+		],
+		"umsabadoqualquer": [
+            {
+                "tags": "umsabadoqualquer mundo avesso",
+                "views": 0,
+                "img": "https://www.umsabadoqualquer.com/wp-content/uploads/2018/06/171.jpg"
+            },
+			{
+                "tags": "umsabadoqualquer neymar",
+                "views": 0,
+                "img": "https://www.umsabadoqualquer.com/wp-content/uploads/2018/06/170.jpg"
+            },
+            {
+                "tags": "umsabadoqualquer mãe praga mundo avesso",
+                "views": 0,
+                "img": "https://www.umsabadoqualquer.com/wp-content/uploads/2018/06/169.jpg"
+            }
+		],
+		"vidaprogramador": [
+            {
+                "tags": "vidaprogramador gerente ftp",
+                "views": 0,
+                "img": "https://vidadeprogramador.com.br/uploads/2018/06/tirinha1865.png"
+            },
+			{
+                "tags": "vidaprogramador zoando termina tudo",
+                "views": 0,
+                "img": "https://vidadeprogramador.com.br/uploads/2018/06/tirinha1427.png"
+            },
+            {
+                "tags": "vidaprogramador 300 loop",
+                "views": 0,
+                "img": "https://vidadeprogramador.com.br/uploads/2018/06/tirinha1863.png"
+            }
+		],
+		"vidadesuporte": [
+            {
+                "tags": "vidadesuporte 300 loop",
+                "views": 0,
+                "img": "https://vidadesuporte.com.br/wp-content/uploads/2018/07/Suporte_2053.jpg"
+            },
+            {
+                "tags": "vidadesuporte taxidriver",
+                "views": 0,
+                "img": "https://vidadesuporte.com.br/wp-content/uploads/2018/07/Suporte_2052.jpg"
+            },
+            {
+                "tags": "vidadesuporte arqueólogo",
+                "views": 0,
+                "img": "https://vidadesuporte.com.br/wp-content/uploads/2018/07/Suporte_2051.jpg"
+            }
+        ],
+        "armandinho": [
+            {
+                "tags": "armandinho patrimônio público detonar",
+                "views": 0,
+                "img": "https://78.media.tumblr.com/16e62f8e68f580308a1b1068cb36bdb7/tumblr_otltd59mnf1u1iysqo1_1280.png"
+            },
+            {
+                "tags": "armandinho mandioca macaxeira",
+                "views": 0,
+                "img": "https://78.media.tumblr.com/1e57bb2e5981422bb3c207a1abdc1b62/tumblr_otgu09zPaC1u1iysqo1_1280.png"
+            },
+            {
+                "tags": "armandinho sinto eu",
+                "views": 0,
+                "img": "https://78.media.tumblr.com/3c6c8dc1dce42e20f36aa1039b046d22/tumblr_ot8wmhw4j21u1iysqo1_1280.png"
+            }
+        ]
+	}
+}

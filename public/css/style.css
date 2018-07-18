@@ -144,8 +144,6 @@ p {
 
 .dropdown-item {
   color: #aaaaaa;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s; }
   .dropdown-item:hover {
     color: #fff;
@@ -156,7 +154,7 @@ p {
   padding: 0 8px 0 0; }
 
 .slider {
-  background: url(../images/slider.jpg) no-repeat;
+  background: url(../images/monica.jpg) no-repeat;
   background-size: cover;
   min-height: 800px; }
   @media (max-width: 992px) {
@@ -261,8 +259,6 @@ p {
   .slider-link a {
     color: #909090;
     text-decoration: underline;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
     transition: 0.3s; }
     .slider-link a:hover {
       color: #fff; }
@@ -289,8 +285,6 @@ p {
       background: #ff3a6d;
       bottom: 0;
       left: 50%;
-      -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
       transform: translateX(-50%); }
 
 .find-img-align {
@@ -305,15 +299,10 @@ p {
 .featured-place-wrap {
   background: #fff;
   margin: 0 0 30px;
-  -webkit-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
   position: relative; }
   .featured-place-wrap:hover {
-    -webkit-transform: translateY(-2px);
-    -ms-transform: translateY(-2px);
     transform: translateY(-2px);
-    -webkit-box-shadow: 0px 3px 40px 0 rgba(206, 205, 205, 0.3);
     box-shadow: 0px 3px 40px 0 rgba(206, 205, 205, 0.3); }
   .featured-place-wrap a {
     display: block;
@@ -351,7 +340,6 @@ p {
   .featured-title-box h6 {
     overflow: hidden;
     white-space: nowrap;
-    -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
     margin-bottom: 5px; }
   .featured-title-box p {
@@ -419,8 +407,6 @@ p {
   .featured-btn-wrap .btn-danger {
     background: #ff3a6d;
     padding: 16px 50px;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
     transition: 0.3s;
     border: 0; }
     @media (max-width: 576px) {
@@ -429,7 +415,6 @@ p {
     .featured-btn-wrap .btn-danger:hover, .featured-btn-wrap .btn-danger:focus {
       background: #f34e79;
       outline: none;
-      -webkit-box-shadow: none;
       box-shadow: none; }
 
 /* ==============================================================
@@ -438,17 +423,11 @@ p {
 @media (max-width: 992px) {
   .category-responsive {
     max-width: 50%;
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 50%;
-    -ms-flex: 0 0 50%;
     flex: 0 0 50%; } }
 
 @media (max-width: 576px) {
   .category-responsive {
     max-width: 100%;
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 100%;
-    -ms-flex: 0 0 100%;
     flex: 0 0 100%; } }
 
 .category-wrap:hover {
@@ -456,15 +435,11 @@ p {
 
 .category-wrap:hover .category-block {
   background: #f34e79;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s; }
 
 .category-wrap:hover .category-img path {
   text-decoration: none;
   fill: #fff;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s; }
 
 .category-wrap:hover .category-block h6 {
@@ -522,8 +497,6 @@ footer {
         font-size: 22px;
         padding: 0 10px;
         opacity: 0.6;
-        -webkit-transition: 0.3s;
-        -o-transition: 0.3s;
         transition: 0.3s; }
         .copyright ul li a:hover {
           opacity: 1;
@@ -574,8 +547,6 @@ footer {
   padding: 8px 10px 2px 10px;
   margin: -46px 0 0;
   opacity: 0.6;
-  -webkit-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
   transition: all 0.5s ease; }
   .map-icon:hover {
     text-decoration: none;
@@ -610,9 +581,6 @@ footer {
 @media (max-width: 992px) {
   .responsive-wrap {
     max-width: 100%;
-    -webkit-box-flex: 100%;
-    -webkit-flex: 100%;
-    -ms-flex: 100%;
     flex: 100%; } }
 
 /* 
@@ -888,17 +856,8 @@ footer {
     padding: 0;
     border-top: 1px solid #ededed;
     border-bottom: 1px solid #ededed;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
     flex-direction: row;
-    -webkit-justify-content: space-around;
-    -ms-flex-pack: distribute;
     justify-content: space-around;
     text-align: center; }
     .follow ul li {
@@ -958,5 +917,3 @@ footer {
 #map {
   height: 100%;
   width: 100%; }
-
-/*# sourceMappingURL=style.css.map */
