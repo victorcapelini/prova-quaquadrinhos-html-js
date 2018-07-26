@@ -3,7 +3,7 @@
 Este é um projeto para candidatos da prova da vaga de desenvolvedor de Html + Javascript
 
 ## Versão
-* 1.0
+* 1.1
 
 ## Prova
 
@@ -36,13 +36,27 @@ Esta prova tem como objetivo atestar os conhecimentos do candidato em Javascript
 #### Para analistas Junior, as tarefas são as seguintes:
 * Na pagina Principal
     - [ ] Carregar dinamicamente as imagens de acordo com o arquivo [public/api.json](public/api.json)  (exatamente igual da tela) com a imagem e a quantidade de visualizações.
-    - [ ] Ajustar o contador de visualizações para quantas visualizações foram feitas por quadrinho (localstorage). Exemplo.: Se eu abrir 10 vezes o site na pagina principal e em todas for no quadrinho Xkcd, o contador deverá ser 10 visualizações.
+    - [ ] Ajustar o contador de visualizações para quantas visualizações foram feitas por quadrinho (localstorage). Exemplo.: Se eu abrir 10 vezes o site na pagina principal, abrir a modal e em todas for no quadrinho Xkcd, o contador deverá ser 10 visualizações.
     - [ ] Colocar uma modal para ampliar o quadrinho em cada quadrinho.
 * Na página de detalhe
     - [ ] Modificar a página detalhe.html para permitir que seja carregado um quadrinho diferente dependendo de um parametro enviado. Exemplo: enviando na url detalhe.html?id=1 ou detalhe/1 ou detalhe/xkcd.
     - [ ] Carregar dinamicamente as imagens de acordo com o arquivo [public/api.json](public/api.json) de acordo com o quadrinho.
 * Nova página chamada random.html
     - [ ] Criar uma nova página que seja randomica, ao entrar nela irá buscar um quadrinho aleatório do arquivo [public/api.json](public/api.json) e exibir como resultado. A cada vez que entrar na tela carregar um diferente. A tela deve seguir o mesmo padrão de layout da detalhe.html porem desta vez só com um quadrinho aleatório.
+* Nova página chamada estatistica.html
+    - [ ] Criar uma nova página que contabiliza cada acesso que um quadrinho teve ao ser clicado (exibindo a modal). A pagina deve ter duas estatisticas, uma incluindo as visualizacoes do arquivo JSON [public/api.json](public/api.json) e outra que deverá exibir somente os itens que foram exibidos no acesso do usuario. A tela deverá seguir o mesmo padrão de layout da detalhe.html porem desta vez só com as estatisticas.
+      - As estatisticas geradas são : 
+	      - Incluindo as visualizações da API:
+	        - [ ] Qual é a tirinha mais vista entre todos os quadrinhos ?
+		    - [ ] Qual é a tirinha mais vista de cada um dos quadrinhos ?
+		    - [ ] Qual é a menos vista ? 
+		    - [ ] Qual quadrinho tem a maior média percentual de visualização ? (Total de Visualizações das tirinhas / Qtd de Tirinhas)
+	  - Baseado somente no uso após o acesso do usuário (não incluindo os dados da API):
+	        - [ ] Qual é a tirinha mais vista entre todos os quadrinhos ?
+		    - [ ] Qual é a tirinha mais vista de cada um dos quadrinhos ?
+		    - [ ] Qual é a menos vista ? 
+    		- [ ] Qual quadrinho tem a maior média percentual de visualização ? (Total de Visualizações das tirinhas / Qtd de Tirinhas)
+	  - Para ter uma melhor ideia, olhe a imagem a seguir [telas/estatistica.png](telas/estatistica.png)
 * Em todas
     - [ ] Ao clicar em Me inscrever no menu (no topo da página), mover a tela direto para a seção de Me Inscrever (no final da página).
     - [ ] Ajustar todos os menus, para ao clicar no link QuaQuadrinhos -> (Nome do quadrinho) redirecionar para a telha de detalhe do quadrinho respectivo.
@@ -56,6 +70,8 @@ Esta prova tem como objetivo atestar os conhecimentos do candidato em Javascript
 * Nova página de pesquisa.
     - [ ] Adicione uma nova página de pesquisa no menu ao lado do menu dos QuaQuadrinhos pela key "tags" do Json.
     - [ ] Permita que seja possivel exibir os quadrinhos procurados em uma nova tela de resultado.
+* Na tela de estatistica
+    - [ ] Integre com alguma framework que gere um grafico de barras e pizza as estatisticas geradas igual a [telas/estatistica.png](telas/estatistica.png).
 * Em todas
     - [ ] Faca o email enviar de fato integrando com algum servidor de Api que envie e-mail de graça.
     - [ ] Integre a pagina com o BitLy (https://www.npmjs.com/package/node-bitlyapi) ou outro encurtador e crie um modo que seja possível encurtar os links e copiar e deixar na área de transferência
