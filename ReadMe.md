@@ -61,6 +61,7 @@ Esta prova tem como objetivo atestar os conhecimentos do candidato em Javascript
     - [ ] Ao clicar em Me inscrever no menu (no topo da página), mover a tela direto para a seção de Me Inscrever (no final da página).
     - [ ] Ajustar todos os menus, para ao clicar no link QuaQuadrinhos -> (Nome do quadrinho) redirecionar para a telha de detalhe do quadrinho respectivo.
     - [ ] Ao clicar em me inscrever, armazenar o email no browser (localstorage) e enviar uma modal com a mensagem "E-mail cadastrado, bem vindo !".
+    - [ ] Criar uma lógica desenvolvida por você para validar se o e-mail é válido na caixa de campo do e-mail, e se ele já não foi adicionado na lista de e-mails anteriores. (Obs.: Aqui não será aceito mascarás prontas, ou componentes prontos. Será necessário desenvolver a sua.)
 
 #### Para analistas Plenos, as tarefas são as seguintes:
     - [ ] Todas as tarefas do analista Junior acima e também:
