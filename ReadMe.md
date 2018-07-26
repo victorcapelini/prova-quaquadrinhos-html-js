@@ -56,7 +56,7 @@ Esta prova tem como objetivo atestar os conhecimentos do candidato em Javascript
 		    - [ ] Qual é a tirinha mais vista de cada um dos quadrinhos ?
 		    - [ ] Qual é a menos vista ? 
     		- [ ] Qual quadrinho tem a maior média percentual de visualização ? (Total de Visualizações das tirinhas / Qtd de Tirinhas)
-	  - Para ter uma melhor ideia, olhe a imagem a seguir [telas/estatistica.png](telas/estatistica.png)
+	  - Para ter uma melhor ideia, olhe a imagem a seguir [telas/estatistica.png](telas/estatistica.png) e [telas/estatistica2.png](telas/estatistica2.png)
 * Em todas
     - [ ] Ao clicar em Me inscrever no menu (no topo da página), mover a tela direto para a seção de Me Inscrever (no final da página).
     - [ ] Ajustar todos os menus, para ao clicar no link QuaQuadrinhos -> (Nome do quadrinho) redirecionar para a telha de detalhe do quadrinho respectivo.
