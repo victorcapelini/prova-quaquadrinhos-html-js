@@ -3,3 +3,4 @@ $(".figura").click(function () {
     $("#myModal img").attr("src", url);
     $("#myModal").modal("show");
 });
+
