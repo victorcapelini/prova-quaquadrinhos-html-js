@@ -65,7 +65,7 @@ function carregaTirinhas() {
 }
 
 function novaImagem(srcImagem, tituloImagem, visualizacoesImagem) {
-    var figura = $("<figure>").addClass("effect-ruby");
+    var figura = $("<figure>").addClass("effect-ruby").addClass("abrirModal");
     var imagem = $("<img>").addClass("img-fluid").attr("alt", "img13").attr("src", srcImagem);
     var legenda = $("<figcaption>")
     var tituloLegenda = $("<h5>").text(tituloImagem);

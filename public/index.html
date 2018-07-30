@@ -108,7 +108,7 @@
                 <div class="col-md-4">
                     <div class="find-place-img_wrap">
                         <div class="grid">
-                            <div id="figura1"></div>
+                            <div id="figura1" class="figura"></div>
                         </div>
                     </div>
                 </div>
@@ -117,7 +117,7 @@
                         <div class="col-md-12">
                             <div class="find-place-img_wrap">
                                 <div class="grid">
-                                    <div id="figura2"></div>
+                                    <div id="figura2" class="figura"></div>
                                 </div>
                             </div>
                         </div>
@@ -126,7 +126,7 @@
                         <div class="col-md-12">
                             <div class="find-place-img_wrap">
                                 <div class="grid">
-                                    <div id="figura3"></div>
+                                    <div id="figura3" class="figura"></div>
                                 </div>
                             </div>
                         </div>
@@ -137,7 +137,7 @@
                         <div class="col-md-12">
                             <div class="find-place-img_wrap">
                                 <div class="grid">
-                                    <div id="figura4"></div>
+                                    <div id="figura4" class="figura"></div>
                                 </div>
                             </div>
                         </div>
@@ -146,7 +146,7 @@
                         <div class="col-md-12">
                             <div class="find-place-img_wrap">
                                 <div class="grid">
-                                    <div id="figura5"></div>
+                                    <div id="figura5" class="figura"></div>
                                 </div>
                             </div>
                         </div>
@@ -179,6 +179,17 @@
             </div>
         </div>
     </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <img src="" />
+                </div>
+            </div>
+        </div>
+    </div>
     <!--//END ADD LISTING -->
     <!--============================= FOOTER =============================-->
     <footer class="main-block dark-bg">
@@ -208,7 +219,8 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
-    <script src="js/imagens.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/modal.js"></script>
     <script>
         $(window).scroll(function () {
             // 100 = The point you would like to fade the nav in.
